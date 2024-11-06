@@ -23,8 +23,8 @@ body{
   
   .box:hover{
     background-color: chartreuse;
-    /* width: 50px;
-    height: 200px; */
+    width: 50px;
+    height: 200px;
   }
   
   @keyframes kutucuk {

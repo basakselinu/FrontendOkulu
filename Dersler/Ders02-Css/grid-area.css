@@ -1,13 +1,14 @@
 .container {
     display: grid;
-    height: 600px;
+    height: 900px;
     background-color: darkgray;
     gap:5px;
     grid-template-areas: 
       "header header header"
       "sidebar section section"
       "sidebar . ."
-      "box-1 box-1 box-1";
+      "sidebar . ."
+      "footer footer footer";
   }
   
   
@@ -29,8 +30,8 @@
     padding: 20px;
   }
   
-  .box-1{
-    grid-area: box-1;
+  .footer{
+    grid-area: footer;
     background-color: rgb(14, 14, 214);
     padding: 20px;
   }

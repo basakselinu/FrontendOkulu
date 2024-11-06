@@ -11,7 +11,7 @@
   }
   .container{
     width: 70%;
-    height: 700px;
+    height: 900px;
     margin: 0 auto;
     background-color: darkgray;
     display: flex;
@@ -19,6 +19,8 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    /* flex-direction ve flex-wrap özelliklerinin kısayoludur.*/
+    /* flex-flow: row wrap;  */
   }
   .box{
     width: 200px;
@@ -35,9 +37,9 @@
     order: 3
   }
   @media screen and (max-width: 768px){
-    /* .container{
+    .container{
       flex-direction: column;
-    } */
+    }
     .box1 {
         order: 3
       }
