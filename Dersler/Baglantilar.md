@@ -14,6 +14,8 @@
 - [Git Learning](https://learngitbranching.js.org/)
 - [Can I Use](https://caniuse.com/)
 - [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Tailwind](https://tailwindcss.com/docs/installation)
 
 
 ## Extra Kaynaklar
